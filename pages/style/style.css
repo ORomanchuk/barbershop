@@ -40,7 +40,9 @@ h3 {
     margin-top: 24px;
 }
 
-
+a {
+    text-decoration: none;
+}
 
 /* HEADER */
 /* HEADER */
