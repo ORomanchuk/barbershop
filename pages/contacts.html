@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700;900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="../img/fav.png" type="image/x-icon">
+    <title>Contacts</title>
+</head>
+
+<body>
+    <header>
+        <div class="headerContent flexable">
+            <div class="company flexable">
+                <a href="../index.html">
+                    <div class="logo"><img src="./img/header-logo.png" alt="company logo"></div>
+                </a>
+                <a href="../index.html">
+                    <div class="companyName">Cool Barber</div>
+                </a>
+            </div>
+            <nav class="flexable">
+                <a href="../index.html#about">About Us</a>
+                <a href="../index.html#testimonials">Testimonials</a>
+                <a href="./team.html">Our masters</a>
+                <a href="#"><b>Contacts</b></a>
+            </nav>
+            <div class="links flexable">
+                <div class="headerLocation flexable">
+                    <p class="headerAddress">302 W 50th St, NY, NY 10019</p>
+                    <img src="./img/location.png" alt="location">
+                </div>
+                <div class="headerPhone flexable">
+                    <div class="text">
+                        <a href="tel:+88000000000">8 (800) 000-00-00</a>
+                        <p class="schedule">Daily from 9 to 20</p>
+                    </div>
+                    <img src="./img/schedule.png" alt="schedule">
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="headerClone"></div>
+    <div class="contactsBody">
+        <section class="contacts flexable">
+            <div class="contactBlock">
+                <p class="blockName">Contacts</p>
+                <div class="contactsList flexable">
+                    <div class="contackItem flexable">
+                        <img src="./img/phone.png" class="contactsImg" alt="">
+                        <a href="tel:+88000000000">8 (800) 000-00-00</a>
+                    </div>
+                    <div class="contackItem flexable">
+                        <img src="./img/mail.png" class="contactsImg" alt="">
+                        <a href="mailto:info@sitename.com">info@sitename.com</a>
+                    </div>
+                    <div class="contackItem flexable">
+                        <img src="./img/location.png" class="contactsImg" alt="">
+                        <p>302 W 50th St, NY, NY 10019</p>
+                    </div>
+                    <div class="contackItem flexable">
+                        <img src="./img/schedule.png" class="contactsImg" alt="">
+                        <p>Daily from 9 to 20</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mapBlock">
+                <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    src="https://maps.google.com/maps?q=302%20W%2050th%20St.%20New%20York%2C%20NY%2010019&amp;t=m&amp;z=15&amp;output=embed&amp;iwloc=near"
+                    title="302 W 50th St. New York, NY 10019" aria-label="302 W 50th St. New York, NY 10019"></iframe>
+            </div>
+        </section>
+        <section class="form" id="form">
+            <div class="formBlock">
+                <p class="formName">Get in consultation with our expert barbers</p>
+                <div class="formDescr">Expand Call-to-Action Details</div>
+                <form action="https://jsonplaceholder.typicode.com/posts" method="post" target="_blank"
+                    class="mainForm flexable">
+                    <div class="inputs flexable">
+                        <input name="phone" id="online_phone" required type="tel" autocorrect="off" autocomplete="tel"
+                            maxlength="27" value="+1 (___)___-__-__" placeholder="+1 (___) ___-__-__">
+                        <input type="email" name="emailInput" id="emailInput" required placeholder="Email">
+                        <button type="submit">Book now</button>
+                    </div>
+                    <label class="confirmForm">
+                        <input required type="checkbox" name="confirmForm" id="confirmForm">
+                        By clicking on the button, you agree to the
+                        <a href="#">terms of processing personal data</a>
+                    </label>
+                </form>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p class="rights">© All rights reserved</p>
+    </footer>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
